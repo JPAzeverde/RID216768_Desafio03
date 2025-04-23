@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Board de tarefas</h1>
+        <form action="">
+            <input type="text" placeholder="Nome da tarefa" name="nomeTarefa" id="nomeTarefa">
+            <input type="text" placeholder="Etiqueta" name="nomeEtiqueta" id="nomeEtiqueta">
+            <input type="button" value="+" id="form-btn">
+        </form>
+        <section class="todo-list-section">
+            <ul id="todo-list">
+
+            </ul>
+        </section>
+        <div id="areaContador">
+            <p id="textoContador"><span id="contadorTarefa">0</span> tarefas concluidas</p>
+
+        </div>
+    </main>
+
+    <script src="func.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+*{
+    
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #F5F9FF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+h1{
+    font-size: 40px ;
+    margin: 0 0 24px;
+    color: #11175E;
+}
+
+main{
+    width: 100%;
+    max-width: 620px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 40px 40px 10px;
+    box-shadow: 0px 0px 12px #000;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 6fr 6fr 1fr;
+    gap: 10px;
+    
+}
+
+
+
+input{
+    padding: 12px;
+    font-size: 16px;
+    color: #42464d;
+    border: 1px solid #B1BACB;
+    border-radius: 6px;
+}
+
+input:focus{
+    border-color: #646a74;
+    outline: none; /* Remove a borda padrão do navegador (opcional) */
+}
+
+#form-btn{
+    background-color: #2D70FD;
+    color: #fff;
+}
+
+
+ul{
+    padding: 0;
+}
+
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #B1BACB;
+    border-radius: 8px;
+    padding: 16px 18px;
+
+}
+
+.task-info{
+    color: #001747;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.task-done {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.checked-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+
+.task-meta{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    color: #B1BACB;
+
+}
+
+.task-area{
+    border: 1px solid #B1BACB;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: auto 0;
+    font-weight: 100;
+}
+.task-done {
+    color: #999;
+    text-decoration: underline dotted;
+}
+
+.task-dia{
+    margin: auto 0;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.task-actions{
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.task-btn{
+    background-color: #2D70FD;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    transition: color 0.2s ease;
+    
+}
+
+.task-btn:hover , #form-btn:hover{
+    background-color: #0004ff;
+}
+
+#areaContador{
+    border-top: 1px solid #B1BACB;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#textoContador{
+    font-size: 16px;
+    color: #B1BACB;
+    font-weight: 600;
+    
+}
