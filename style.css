@@ -162,3 +162,87 @@ li{
     font-weight: 600;
     
 }
+
+@media only screen and (max-width: 800px) {
+
+    html {
+      font-size: 8px;
+    }
+    body{
+      padding:50px 8px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    main {
+      padding: 20px;
+    }
+  
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    form input,
+    #form-btn {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    #form-btn {
+      padding: 14px 0;
+    }
+  
+
+    ul#todo-list {
+      padding: 0;
+    }
+    ul#todo-list li {
+      flex-direction: column;
+      gap: 12px;
+      padding: 12px;
+    }
+    .task-info {
+      gap: 6px;
+    }
+    .task-info span {
+      font-size: 14px;
+    }
+    .task-meta {
+      flex-direction: column;
+      gap: 6px;
+    }
+    .task-dia {
+      font-size: 12px;
+    }
+  
+
+    .task-actions {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+    .task-btn {
+      padding: 10px 16px;
+      font-size: 14px;
+      margin: 8px auto;
+    }
+    .checked-icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+
+    #areaContador {
+      text-align: center;
+      margin-top: 16px;
+    }
+    #textoContador {
+      font-size: 14px;
+    }
+  }
+  
+  
+  
